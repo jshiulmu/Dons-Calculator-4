@@ -1,10 +1,7 @@
 #UPGRADED CALCULATOR FOR DIVIDING LONG BILLS WITH MANY ITEMS, (GROCERY SHOPPING, RESTAURANTS)
 #VERSION 4
 
-#GO TO RUN>RUN MODULE AT TOP TO RUN PROGRAM
-
 stop = False
-#count = 0
 
 print("Calculator 4 by Jordan Shiu (and Dylan Shiu a little bit).\n\n")
 print("Create a seperate file with each items' price and who is paying for each item.")
@@ -51,7 +48,6 @@ def who_payin (item):
            
 while stop == False:
     item = input()
-
     who_payin(item)
 
     if item == "000":
@@ -62,8 +58,4 @@ print("\nGreat! The total today is")
 print(sum(totals.values()))
 print("Here's what everyone must pay:")
 print(totals)
-
-
-
-
 #testing git through VS Code
